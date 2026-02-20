@@ -29,9 +29,9 @@ public class TemperatureConverter {
                 return;
         }
         System.out.println("\nConverted Values:");
-        System.out.println("Celsius: " + celsius);
-        System.out.println("Fahrenheit: " + fahrenheit);
-        System.out.println("Kelvin: " + kelvin);
+        System.out.printf("Celsius: %.2f\n", celsius);
+        System.out.printf("Fahrenheit: %.2f\n", fahrenheit);
+        System.out.printf("Kelvin: %.2f\n", kelvin);
         sc.close();
     }
 }
